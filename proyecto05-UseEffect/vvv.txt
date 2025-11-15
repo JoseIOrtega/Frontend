@@ -1,0 +1,20 @@
+    
+    const [id,setId]=useState();
+    const [familia,setFamilia]=useState("");
+    const [order,setOrder]=useState("");
+    const [genus,setGenus]=useState("");
+    const [calorias,setCalorias]=useState();
+    const [fat,setFat]=useState();
+    const [sugar,setSugar]=useState();
+    const [carbohidratos,setCarbohidratos]=useState();
+    const [proteinas,setProteinas]=useState();
+	setName(data.name);    
+	setId(data.id);
+        setFamilia(data.family);
+        setOrder(data.order);
+        setGenus(data.genus);
+        setCalorias(data.nutritions.calories);
+        setFat(data.nutritions.fat);
+        setSugar(data.nutritions.sugar);
+        setCarbohidratos(data.nutritions.carbohydrates);
+        setProteinas(data.nutritions.protein)
