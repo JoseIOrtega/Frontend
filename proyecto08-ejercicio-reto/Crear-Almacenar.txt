@@ -1,7 +1,5 @@
 import {useState} from "react";
-
-function Biclicletas_crear(){
-
+function Bicicletas_crear(){
     const [marca,setMarca]=useState("");
     const [color,setColor]=useState("");
     const [precio,setPrecio]=useState(0);
@@ -12,13 +10,12 @@ function Biclicletas_crear(){
             method:"POST",
             headers:{
                 "Content-Type":"application/json",
-                apikey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNrb2pyeWF4YnF1cXR3dnV5aGZ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc1MTQ0MTUsImV4cCI6MjA3MzA5MDQxNX0.nZMSWKNIve_UmSe1KEehy9ocL2FIR25QflnccDRQ998",
-                Authorization:"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNrb2pyeWF4YnF1cXR3dnV5aGZ2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc1MTQ0MTUsImV4cCI6MjA3MzA5MDQxNX0.nZMSWKNIve_UmSe1KEehy9ocL2FIR25QflnccDRQ998"
+                apikey:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN",
+                Authorization:"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlcDRQ998"
             },
             body:JSON.stringify({marca:marca,color:color,precio_alquiler:precio})
         });
     }
-    
     return(
         <div>
             <h1>Guardar Bicicletas</h1>
@@ -31,4 +28,4 @@ function Biclicletas_crear(){
         </div>
     )    
 }
-export default Biclicletas_crear;
+export default Bicicletas_crear;

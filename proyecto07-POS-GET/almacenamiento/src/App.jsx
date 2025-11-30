@@ -1,12 +1,14 @@
-import Biclicletas_crear from "./Biclicletas_crear"
-import Biclicletas_leer from "./Biclicletas_leer"
+import Bicicletas_crear from "./Bicicletas_crear"
+import Bicicletas_leer from "./Bicicletas_leer"
 
 function App() {
   return (
     <div>
-      <Biclicletas_crear></Biclicletas_crear>
-      <Biclicletas_leer></Biclicletas_leer>
+      <Bicicletas_crear></Bicicletas_crear>
+      <Bicicletas_leer></Bicicletas_leer>
     </div>
   )
 }
 export default App
+
+
