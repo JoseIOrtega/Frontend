@@ -38,7 +38,7 @@ function Clinicas(){
     return(
         <div>
             <h2>Registrar Clínicas</h2>
-            <form onSubmit={guardar}>
+            <form onSubmit={guardar} >
                 <input placeholder="escriba su nombre" required onChange={(e)=>setNombre(e.target.value)}></input>
                 <input placeholder="escriba su ciudad" required onChange={(e)=>setCiudad(e.target.value)}></input>
                 <button type="submit">Guardar</button>

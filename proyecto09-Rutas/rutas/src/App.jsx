@@ -10,13 +10,15 @@ function App() {
       <BrowserRouter>
         <Navbar></Navbar>
         <Routes>
-          <Route path="/hola" element={<Hola></Hola>}></Route>
           <Route path="/" element={<Saludo></Saludo>}></Route>
           <Route path="/msj" element={<Mensaje></Mensaje>}></Route>
+          <Route path="/hola" element={<Hola></Hola>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
   )
 }
-
 export default App
+
+
+

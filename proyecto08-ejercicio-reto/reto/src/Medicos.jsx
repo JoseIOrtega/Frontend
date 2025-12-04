@@ -40,7 +40,7 @@ function Medicos(){
     return(
         <div>
             <h2>Registrar Medicos</h2>
-            <form onSubmit={guardar}>
+            <form onSubmit={guardar} >
                 <input placeholder="escriba su nombre" required onChange={(e)=>setNombre(e.target.value)}></input>
                 <input placeholder="escriba su especialidad" required onChange={(e)=>setEspecialidad(e.target.value)}></input>
                 <input placeholder="escriba el Id clinica" required onChange={(e)=>setIdclinica(e.target.value)}></input>

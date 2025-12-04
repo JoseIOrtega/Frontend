@@ -38,7 +38,7 @@ function Pacientes(){
     }
     return(
         <div>
-            <h2>Registrar Medicos</h2>
+            <h2>Registrar Pacientes</h2>
             <form onSubmit={guardar}>
                 <input placeholder="escriba su nombre" required onChange={(e)=>setNombre(e.target.value)}></input>
                 <input placeholder="escriba su telefono" required onChange={(e)=>setTelefono(e.target.value)}></input>
